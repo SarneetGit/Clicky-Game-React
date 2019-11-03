@@ -19,6 +19,7 @@ class Grid extends React.Component {
               data-name={char.name}
               data-id={char.id}
               alt=""
+              onClick={this.props.handleSelection}
             />    
           </MDBView>
         </MDBCol> 
