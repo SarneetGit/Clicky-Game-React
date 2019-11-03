@@ -1,0 +1,11 @@
+#myContainer {
+    padding-bottom: 6vh;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+div.col-md-3 {
+    padding-bottom:3.25vh;
+}
