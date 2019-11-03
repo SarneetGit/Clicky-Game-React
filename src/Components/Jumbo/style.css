@@ -1,6 +1,7 @@
 .jumbotron {
-    width: 55%;
+    width: 60%;
     margin-top: 4vh;
-    margin-left: 22.5%;
-    margin-right: 22.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Open Sans', sans-serif;
 }

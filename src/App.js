@@ -12,7 +12,8 @@ class App extends React.Component {
     pickedChars: [],
     currentScore: 0,
     highScore: 0,
-    message: ""
+    message: "",
+    correct: 0
   };
 
   shuffleCharacters = () => {
@@ -44,13 +45,14 @@ class App extends React.Component {
     var updatedState = { ...this.state };
     if (updatedState.pickedChars.includes(name)) {
       updatedState.message = `WRONG! YOU ALREADY PICKED "${name.toUpperCase()}"!`
-      console.log(updatedState.pickedChars)
       updatedState.pickedChars = []
+      updatedState.currentScore = 0
+      updatedState.correct = false
       this.setState(this.state = updatedState)
     } else {
       updatedState.pickedChars.push(name)
-      console.log(updatedState.pickedChars)
       updatedState.message = `CORRECT!`
+      updatedState.correct = true
       this.setState(this.state = updatedState)
     }
     this.updateTopScore(updatedState)
@@ -59,6 +61,9 @@ class App extends React.Component {
   updateTopScore = (updatedState) => {
     if (updatedState.pickedChars.length > updatedState.currentScore) {
       updatedState.currentScore++
+      if (updatedState.currentScore > updatedState.highScore) {
+        updatedState.highScore++
+      }
       this.setState(this.state = updatedState)
     }
     this.checkWin(updatedState)
@@ -79,7 +84,7 @@ class App extends React.Component {
           highScore={this.state.highScore}
           currentScore={this.state.currentScore}
         />
-        <Jumbo message={this.state.message}/>
+        <Jumbo message={this.state.message} correct={this.state.correct}/>
         <Grid characters={this.state.characters} handleSelection={this.handleSelection}/>
       </div>
     );
