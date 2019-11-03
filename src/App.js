@@ -44,7 +44,7 @@ class App extends React.Component {
   checkClickGuess = (name) => {
     var updatedState = { ...this.state };
     if (updatedState.pickedChars.includes(name)) {
-      updatedState.message = `WRONG! YOU ALREADY PICKED "${name.toUpperCase()}"!`
+      updatedState.message = `WRONG! YOU ALREADY PICKED ${name.toUpperCase()}!`
       updatedState.pickedChars = []
       updatedState.currentScore = 0
       updatedState.correct = false

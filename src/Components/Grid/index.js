@@ -5,8 +5,7 @@ import "./style.css";
 // console.log(this.props.characters)
 class Grid extends React.Component {
   
-  render() {
-    console.log(this.props.characters)
+  render() {    
     return (
       <MDBContainer className="mt-5" id="myContainer">
         <MDBRow className="mt-4">

@@ -25,7 +25,6 @@ getStyle = (bool) => {
 }
 
 render() {
-    console.log(this.props)
   return (    
     <MDBJumbotron fluid className="rounded">
       <MDBContainer className="h-75">
