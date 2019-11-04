@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SarneetGit/Clicky-Game-React/static/css/main.8ad34053.chunk.css",
+    "main.js": "/SarneetGit/Clicky-Game-React/static/js/main.8d6772f5.chunk.js",
+    "main.js.map": "/SarneetGit/Clicky-Game-React/static/js/main.8d6772f5.chunk.js.map",
+    "runtime-main.js": "/SarneetGit/Clicky-Game-React/static/js/runtime-main.3cec7fdd.js",
+    "runtime-main.js.map": "/SarneetGit/Clicky-Game-React/static/js/runtime-main.3cec7fdd.js.map",
+    "static/js/2.cc0a77b9.chunk.js": "/SarneetGit/Clicky-Game-React/static/js/2.cc0a77b9.chunk.js",
+    "static/js/2.cc0a77b9.chunk.js.map": "/SarneetGit/Clicky-Game-React/static/js/2.cc0a77b9.chunk.js.map",
+    "index.html": "/SarneetGit/Clicky-Game-React/index.html",
+    "precache-manifest.b85a27863596f9291f1511f6752adcc9.js": "/SarneetGit/Clicky-Game-React/precache-manifest.b85a27863596f9291f1511f6752adcc9.js",
+    "service-worker.js": "/SarneetGit/Clicky-Game-React/service-worker.js",
+    "static/css/main.8ad34053.chunk.css.map": "/SarneetGit/Clicky-Game-React/static/css/main.8ad34053.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cec7fdd.js",
+    "static/js/2.cc0a77b9.chunk.js",
+    "static/css/main.8ad34053.chunk.css",
+    "static/js/main.8d6772f5.chunk.js"
+  ]
+}
